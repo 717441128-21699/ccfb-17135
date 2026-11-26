@@ -1,0 +1,20 @@
+{
+  "name": "curling-band-inspector",
+  "version": "1.0.0",
+  "private": true,
+  "description": "冰壶运行带环形微距拼接、展开与粗糙度分析系统",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx scripts/validate.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

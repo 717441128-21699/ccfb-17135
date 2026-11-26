@@ -10,6 +10,8 @@ id_ed25519*
 *.secret
 secrets.*
 credentials*.json
+diag/
+dist/
 .npmrc
 .pypirc
 node_modules/
